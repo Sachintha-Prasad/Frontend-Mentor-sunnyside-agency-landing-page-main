@@ -41,7 +41,7 @@ const CustomerReviewCard = () => {
                         <p className="font-barlow text-lg font-semibold text-neutral-very-dark-grayish-blue">
                             {data.desc}
                         </p>
-                        <div className="flex flex-col items-center">
+                        <div className="flex flex-col gap-3 items-center">
                             <h3 className="font-fraunces text-xl font-bold text-neutral-very-dark-desturated-blue">
                                 {data.name}
                             </h3>
