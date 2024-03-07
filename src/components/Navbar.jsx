@@ -19,7 +19,10 @@ const Navbar = () => {
                 {/* navitems for large screen  */}
                 <ul className="flex gap-4 justify-between items-center text-neutral-white font-medium text-lg">
                     {navItems.map((item, index) => (
-                        <li key={index} className="font-barlow">
+                        <li
+                            key={index}
+                            className="font-barlow hover:text-neutral-very-dark-desturated-blue transition-all ease-in-out duration-300"
+                        >
                             <a href="#">{item}</a>
                         </li>
                     ))}
