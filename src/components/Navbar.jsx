@@ -18,8 +18,8 @@ const Navbar = () => {
             <div className="hidden sm:block w-[400px]">
                 {/* navitems for large screen  */}
                 <ul className="flex gap-4 justify-between items-center text-neutral-white font-medium text-lg">
-                    {navItems.map((item) => (
-                        <li className="font-barlow">
+                    {navItems.map((item, index) => (
+                        <li key={index} className="font-barlow">
                             <a href="#">{item}</a>
                         </li>
                     ))}
@@ -47,8 +47,8 @@ const Navbar = () => {
                 }`}
             >
                 <ul className=" flex flex-col gap-6 justify-between items-center py-6 text-neutral-very-dark-grayish-blue font-semibold text-lg bg-neutral-white w-full">
-                    {navItems.map((item) => (
-                        <li className="font-barlow">
+                    {navItems.map((item, index) => (
+                        <li key={index} className="font-barlow">
                             <a href="#">{item}</a>
                         </li>
                     ))}
