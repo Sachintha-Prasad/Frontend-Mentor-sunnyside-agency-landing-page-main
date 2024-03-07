@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import ArrowDown from "../assets/images/icon-arrow-down.svg"
 import CustomerReviewCard from "../components/CustomerReviewCard"
 import Gallery from "../components/Gallery"
+import Footer from "../components/Footer"
 
 const Home = () => {
     return (
@@ -93,6 +94,7 @@ const Home = () => {
             <section>
                 <Gallery />
             </section>
+            <Footer />
         </div>
     )
 }
