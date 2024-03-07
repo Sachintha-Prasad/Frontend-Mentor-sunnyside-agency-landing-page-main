@@ -3,6 +3,7 @@ import React from "react"
 import Navbar from "../components/Navbar"
 import ArrowDown from "../assets/images/icon-arrow-down.svg"
 import CustomerReviewCard from "../components/CustomerReviewCard"
+import Gallery from "../components/Gallery"
 
 const Home = () => {
     return (
@@ -88,6 +89,9 @@ const Home = () => {
                     client testimonials
                 </h2>
                 <CustomerReviewCard />
+            </section>
+            <section>
+                <Gallery />
             </section>
         </div>
     )
